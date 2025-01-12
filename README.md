@@ -21,7 +21,3 @@ A LangGraph LLM agent for generating taxonomy tag recommendations from a set of 
 	- a ranked list of recommended tags, with their justification (synthesized, if multiple, 2 - 5 sentences), how many articles they apply to, and how many categories they cross
 	- return rejected tags that applied to everything (+ synthesized description)
 	- return rejected tags that applied to only one article (+ description)
-
-
-	--> Add similarity comparison: https://spacy.io/usage/spacy-101#vectors-similarity
-	
