@@ -16,7 +16,18 @@ Outputs include:
 - standard deviation of relevance scores
 - number of content types represented
 
-## Steps
+## Installation
+You can use Python’s `venv` module to create an isolated environment for dependencies. This ensures a clean environment and avoids conflicts with system packages.
+
+```shell
+$ cd tag-gen
+$ python3.11 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+```
+
+
+## Workflow Steps
 1. Fetch & Tidy Articles
 2. Create Topic Tag Generation Prompts
 3. Generate Tags
